@@ -1,0 +1,7 @@
+name: Higgins
+description: A sample WebUI application
+dependencies:
+  browser: any
+  js: any
+  web_ui: any
+  widget: 0.1.0
