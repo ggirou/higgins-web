@@ -1,5 +1,5 @@
 name: Higgins
-description: A sample WebUI application
+description: UI part of the Higgins CI tool
 dependencies:
   browser: any
   js: any
