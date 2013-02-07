@@ -1,7 +1,9 @@
-name: Higgins
+name: higgins_web
+version: 0.0.1
+author: The Pink Team
 description: UI part of the Higgins CI tool
 dependencies:
-  browser: any
   js: any
+  browser: any
   web_ui: any
   widget: 0.1.0
