@@ -4,4 +4,4 @@
 .settings/
 pubspec.lock
 packages/
-out/
+test/
