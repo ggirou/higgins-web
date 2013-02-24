@@ -3,5 +3,9 @@
 .children
 .settings/
 pubspec.lock
-packages/
+packages
 out/
+*.dart.js
+*.dart.js.deps
+*.dart.js.map
+
