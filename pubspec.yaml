@@ -3,7 +3,17 @@ version: 0.0.1
 author: The Pink Team
 description: UI part of the Higgins CI tool
 dependencies:
-  js: any
-  browser: any
-  web_ui: any
-  widget: 0.1.0
+#  js: any
+#  widget: any
+  browser: '<0.4.2'
+  web_ui: '<0.4.2'
+  # FIXME: limit versions to <0.4.2 for transitive dependencies
+  args: '<0.4.2'
+  logging: '<0.4.2'
+  unittest: '<0.4.2'
+  analyzer_experimental: '<0.4.2'
+  meta: '<0.4.2'
+  pathos: '<0.4.2'
+
+environment:
+  sdk: "<0.4.2"
