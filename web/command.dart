@@ -24,7 +24,7 @@ build() {
   });
 }
 
-void showCommandResult(String buildId) {
+void showCommandResult(buildId) {
   var source = new EventSource('/command/$buildId/');
   source
   ..onOpen.listen((_) => print("Open EventSource"))
